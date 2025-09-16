@@ -9,15 +9,29 @@
         <ul class="flex gap-3">
           <li class="h-6 flex gap-2">
             <img src="/cart.svg" alt="" class="h-full w-auto object-contain">
-            <p class="hover:text-blue-500"> Корзина </p> 
+            <p class="text-neutral-950"> Корзина </p> 
           </li>
           
           <li class="h-6 flex gap-2">
             <img src="/user.svg" alt="" class="h-full w-auto object-contain">
-            <p class="hover:text-blue-500"> Профиль </p>
+            <p class="text-neutral-950"> Профиль </p>
           </li>  
         </ul>
       </nav>
     </div>
   </header>
 </template>
+
+
+
+
+<style scoped>
+  li p {
+    transition: all 0.3s;
+  }
+  
+  li p:hover {
+    color: hsl(210, 70%, 70%);
+    transition: all 0.3s;
+  }
+</style>
