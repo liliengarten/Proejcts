@@ -1,2 +1,4 @@
-let a = '1_2_3'
-console.log(typeof(a.split('_')))
+x.call(x);
+function x() {  
+  alert( this );
+}
